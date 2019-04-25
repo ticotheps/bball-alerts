@@ -8,8 +8,8 @@ const body = `This is a TEST BBALL ALERT from Tico's RSVP-bot. If you have recei
 Please send "success" in a separate text message to TICO's PHONE NUMBER (NOT to this number!) to confirm a successful test case. Thank you for your help!`;
 
 
-const unknown_number_1 = process.env.UNKNOWN_NUMBER_1;
-const unknown_number_2 = process.env.UNKNOWN_NUMBER_2
+const unknown_number = process.env.UNKNOWN_NUMBER,
+const bailey_krzeszewski = process.env.BAILEY_KRZESZEWSKI;
 const tico = process.env.MY_NUMBER;
 const logan_collison = process.env.LOGAN_COLLISON;
 const brian_keim = process.env.BRIAN_KEIM;
@@ -45,8 +45,8 @@ const mason_pasek = process.env.MASON_PASEK;
 const twilioMsgService = process.env.TWILIO_MESSAGING_SERVICE_SID;
 
 const numbers = [
-    unknown_number_1,
-    unknown_number_2,
+    unknown_number,
+    bailey_krzeszewski,
     tico, 
     logan_collison,
     brian_keim,
