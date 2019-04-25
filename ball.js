@@ -16,5 +16,6 @@ twilio.messages
     })
     .then(message => {
         console.log(message.sid);
+        console.log(body);
     })
     .catch(err => console.error(err));
