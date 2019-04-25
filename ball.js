@@ -6,11 +6,11 @@ const twilio = require('twilio')(
 const body = "Get READY! We'll be BALLIN' tomorrow, Fellas!";
 
 const twilioNumber = process.env.TWILIO_NUMBER;
-const myNumber = process.env.MY_NUMBER;
+const number = process.env.MY_NUMBER;
 
 twilio.messages
     .create({
-        to: myNumber,
+        to: number,
         from: twilioNumber,
         body: body
     })
