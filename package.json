@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/ticotheps/bball-alerts/issues"
   },
-  "homepage": "https://github.com/ticotheps/bball-alerts#readme"
+  "homepage": "https://github.com/ticotheps/bball-alerts#readme",
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "node-env-run": "^3.0.2",
+    "twilio": "^3.30.2"
+  }
 }
