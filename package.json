@@ -8,7 +8,8 @@
     "start": "node server.js",
     "server": "nodemon server.js",
     "ball": "nodenv ball.js",
-    "hoopers": "nodenv hoopers.js"
+    "hoopers": "nodenv hoopers.js",
+    "notify": "nodenv notify.js"
   },
   "repository": {
     "type": "git",
