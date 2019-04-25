@@ -3,7 +3,7 @@ const twilio = require('twilio')(
     process.env.TWILIO_AUTH_TOKEN
 );
 
-const body = "Get READY! We'll be hooping tomorrow, Fellas!";
+const body = "Get READY! We'll be BALLIN' tomorrow, Fellas!";
 
 const twilioNumber = process.env.TWILIO_NUMBER;
 const myNumber = process.env.MY_NUMBER;
